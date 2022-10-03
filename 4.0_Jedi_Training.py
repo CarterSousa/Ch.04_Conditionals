@@ -1,4 +1,4 @@
-# Sign your name:________________
+# Sign your name:Carter Sousa
 
   #1. Make the following program work. (3 mistakes)
      
@@ -27,8 +27,8 @@
 
   # 4. Make the following program work. (4 mistakes)
      
-     x = input("Name one of the top 3 greatest Jedi.")
-     if jedi == Yoda or Luke Skywalker or Obi-Wan Kenobi:
+     jedi = input("Name one of the top 3 greatest Jedi.")
+     if jedi.lower() == "Yoda" or jedi.lower() == "Luke Skywalker" or jedi.lower() == "Obi-Wan Kenobi":
          print "That is correct!"
 
 
@@ -41,14 +41,14 @@
      print("A. Jedi Master")
      print("B. Sith Lord")
      print("C. Droid")
+user_input = input("choose a character?")
 
-     user_input = input("Choose a character?")
 
-     if user_input = A:
+     if user_input = A or a:
          sensitivity = 1000
-     else if user_input = B:
+     elif user_input = B or b:
          sensitivity = 900
-     else if user_input = C:
+     else user_input = C or c:
          sensitivity = 0
 
      print("Sensitivity: ",Sensitivity)
