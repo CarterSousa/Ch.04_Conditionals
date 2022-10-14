@@ -5,8 +5,6 @@ The criteria for the project are on the website. Make sure you test this quiz wi
 two of your student colleagues before you run it by your instructor.
 '''
 print ("Hello welcome to my random facts quiz! ")
-name = input("what is your name? ")
-print("Hello",name,)
 answer = input("are you ready for the test?")
 if answer == ("no").lower() or answer == ("n").lower():
     print("Welp... too bad :)! ")
@@ -15,7 +13,7 @@ elif answer == ("yes").lower() or answer == ("y").lower():
 else:
     print("no matter what your answer is we're starting.")
 score = 0
-print("-----------------------------------------------------------------------------------------")
+print("-------------------------------------/----------------------------------------------------")
 answer = input("(Question number 1) What day is cinco de mayo? ")
 if answer == (" May 5th ") or answer == ("may 5th") or answer == ("5/5") or answer == ("5-5"):
     print("CORRECT! (not really that hard though if you speak spanish...)")
