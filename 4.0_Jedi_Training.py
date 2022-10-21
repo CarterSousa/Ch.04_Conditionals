@@ -43,7 +43,6 @@ print("B. Sith Lord")
 print("C. Droid")
 user_input = input("choose a character?")
 
-
 if user_input == "A" or user_input == "a":
          sensitivity = 1000
 elif user_input == "B" or user_input == "b":

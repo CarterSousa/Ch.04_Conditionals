@@ -97,4 +97,3 @@ elif score == 6 or score == 5:
 elif score == 4 or score == 3 or score == 2 or score == 1 or score == 0:
     print("Not a very good score for a simple quiz, but atleast you tried... too bad trying doesn't get you points.")
 
-

@@ -17,7 +17,6 @@ Out:  Test 1: Odd
       Test 2: Negative
       Test 3: Exclusive
 '''
-
 test = float(input("Insert a number you would like to have analyzed:"))
 
 if test in range(-200000,2000001,2):

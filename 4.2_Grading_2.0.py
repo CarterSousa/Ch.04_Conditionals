@@ -33,4 +33,3 @@ elif overall_grade in int(range(65,66)):
     print("Your letter grade is D-")
 else:
     print(" You Failed, Go to Johnston")
-
