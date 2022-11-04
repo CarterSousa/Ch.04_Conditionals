@@ -19,20 +19,19 @@ Out:  Test 1: Odd
 '''
 test = float(input("Insert a number you would like to have analyzed:"))
 
-if test in range(-200000,2000001,2):
-    test_1 = "even"
-    print("Test 1:", test_1, )
-elif test in range(-200000,2000001,1):
-    test_1 = "odd"
-    print("Test 1:", test_1, )
-if test in range(-200000,0):
-    test_2 = "negative"
-    print("Test 2:",test_2,)
-elif test in range(0,2000001):
-    test_2 = "positive"
-    print("Test 2:", test_2, )
-if test in range(-20000,-101) or test in range(101, 2000001):
-    test_3 = "Exlusive"
-    print("Test 3:", test_3, )
-elif test in range(-100,101):
-    test_3 = " "
+if test%2==0:
+    print("test 1: even")
+else:
+    print("test 1: odd")
+
+if test>0:
+    print("Test 2: positive")
+elif test<0:
+    print("Test 2: negative")
+else:
+    print("Test 2: zero")
+
+if test<=100 and test>=-100:
+    print("Test 3: inclusive")
+else:
+    print("Test 3: exclusive")

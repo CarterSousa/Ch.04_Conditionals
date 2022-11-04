@@ -9,27 +9,27 @@ final_grade = int(input("What was your final exam grade?: "))
 final_worth = float(input("What was your final exam worth in decimal form?: "))
 overall_grade = final_grade*final_worth+((1-final_worth)*semester_grade)
 print(" Your overall final grade is:",overall_grade,"%")
-if overall_grade in int(range(97,101)):
+if overall_grade >=97:
     print("Your letter grade is A+")
-elif overall_grade in int(range(93,96)):
+elif overall_grade>=93:
     print("Your letter grade is A")
-elif overall_grade in int(range(90,92)):
+elif overall_grade>=90:
     print("Your letter grade is A-")
-elif overall_grade in int(range(87,89)):
+elif overall_grade in range(87,89):
     print("Your letter grade is B+")
-elif overall_grade in int(range(83,86)):
+elif overall_grade in range(83,86):
     print("Your letter grade is B- ")
-elif overall_grade in int(range(80,82)):
+elif overall_grade in range(80,82):
     print("Your letter grade is C+ ")
-elif overall_grade in int(range(77,79)):
+elif overall_grade in range(77,79):
     print("Your letter grade is C ")
-elif overall_grade in int(range(73,76)):
+elif overall_grade in range(73,76):
     print("Your letter grade is C-")
-elif overall_grade in int(range(70,72)):
+elif overall_grade in range(70,72):
     print("Your letter grade is D+")
-elif overall_grade in int(range(67,69)):
+elif overall_grade in range(67,69):
     print("Your letter grade is D")
-elif overall_grade in int(range(65,66)):
+elif overall_grade in range(65,66):
     print("Your letter grade is D-")
 else:
     print(" You Failed, Go to Johnston")
